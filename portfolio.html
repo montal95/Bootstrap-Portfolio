@@ -43,60 +43,63 @@
 
     </nav>
     <!-- Content for each page will be contained here-->
-    <div class="container shadow-sm mt-2">
-        <div class="row">
-            <!--Adding this row for extrap space between the footer and the header-->
-            &nbsp;
-        </div>
-        <div class="row">
-            <div class="col-md-12">
-                <h2>Portfolio</h2>
+    <div class="container info col-md-12">
+        <div class="container shadow-sm mt-2">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2>Portfolio</h2>
+                </div>
+            </div>
+            <div class="row">
+                <a href="../Psychic-Game/index.html">
+                    <div class="card m-3" style="width: 24rem;">
+
+                        <img class="card-img-top" src="./assets/images/Hangman.png" alt="Cat image">
+                        <div class="card-body bg-info">
+                            <p class="card-text text-white">Hangman</p>
+                        </div>
+
+                    </div>
+                </a>
+                <a href="../GIFtastic/index.html">
+                    <div class="card m-3" style="width: 24rem;">
+                        <img class="card-img-top" src="./assets/images/GIFtastic.png" alt="Cat image">
+                        <div class="card-body bg-info">
+                            <p class="card-text text-white">GIFtastic</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="row mb-5">
+                <a href="../weather-or-not/index.html">
+                    <div class="card m-3" style="width: 24rem;">
+                        <img class="card-img-top" src="./assets/images/weather-or-not.png" alt="Cat image">
+                        <div class="card-body bg-info">
+                            <p class="card-text text-white">Weather or Not</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="../Firebase-Train-Schedule/index.html">
+                    <div class="card m-3" style="width: 24rem;">
+                        <img class="card-img-top" src="./assets/images/Firebase-Train-Schedule.png" alt="Cat image">
+                        <div class="card-body bg-info">
+                            <p class="card-text text-white">Choo Choo Train Scheduler</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="row mb-5">
+                <a href="https://health-guru.herokuapp.com">
+                    <div class="card m-3" style="width: 24rem;">
+                        <img class="card-img-top" src="./assets/images/Health-Guru.png" alt="Cat image">
+                        <div class="card-body bg-info">
+                            <p class="card-text text-white">Health-Guru</p>
+                        </div>
+                    </div>
+                </a>
             </div>
         </div>
-        <div class="row">
-            <a href="../Psychic-Game/index.html">
-                <div class="card m-3" style="width: 24rem;">
-
-                    <img class="card-img-top" src="./assets/images/Hangman.png" alt="Cat image">
-                    <div class="card-body bg-info">
-                        <p class="card-text text-white">Hangman</p>
-                    </div>
-
-                </div>
-            </a>
-            <a href="../GIFtastic/index.html">
-                <div class="card m-3" style="width: 24rem;">
-                    <img class="card-img-top" src="./assets/images/GIFtastic.png" alt="Cat image">
-                    <div class="card-body bg-info">
-                        <p class="card-text text-white">GIFtastic</p>
-                    </div>
-                </div>
-            </a>
-        </div>
-        <div class="row mb-5">
-            <a href="../weather-or-not/index.html">
-                <div class="card m-3" style="width: 24rem;">
-                    <img class="card-img-top" src="./assets/images/weather-or-not.png" alt="Cat image">
-                    <div class="card-body bg-info">
-                        <p class="card-text text-white">Weather or Not</p>
-                    </div>
-                </div>
-            </a>
-            <a href="../Firebase-Train-Schedule/index.html">
-                <div class="card m-3" style="width: 24rem;">
-                    <img class="card-img-top" src="./assets/images/Firebase-Train-Schedule.png" alt="Cat image">
-                    <div class="card-body bg-info">
-                        <p class="card-text text-white">Choo Choo Train Scheduler</p>
-                    </div>
-                </div>
-            </a>
-        </div>
-        <!--this row was added to allow all text to be visible even as the max width of the page is smaller-->
-        <div class="row mb-5">
-            &nbsp;
-        </div>
     </div>
-
 
     <footer class="footer bg-secondary border-info border-top mt-5">
         <div class="container text-center">
@@ -112,7 +115,10 @@
         crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
         crossorigin="anonymous"></script>
-
+    <script src="./backstretch.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        $.backstretch("./assets/images/chicago-skyline.jpg");
+    </script>
 
 </body>
 
