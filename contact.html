@@ -63,12 +63,17 @@
         <div class="row">
           <div class="col-md-12">
             <h2>Contact Me</h2>
-            <form>
+            <form
+              action="mailto:sammontalvojr@gmail.com"
+              method="POST"
+              enctype="text/plain"
+            >
               <div class="form-group">
                 <label for="name">Name</label>
                 <input
-                  type="name"
+                  type="text"
                   class="form-control"
+                  name="name"
                   id="name"
                   placeholder="Firstname Lastname"
                 />
@@ -76,9 +81,10 @@
               <div class="form-group">
                 <label for="e-mail">E-mail</label>
                 <input
-                  type="e-mail"
+                  type="text"
                   class="form-control"
-                  id="e-mail"
+                  name="mail"
+                  id="email"
                   placeholder="example@email.com"
                 />
               </div>
@@ -87,12 +93,14 @@
                 <textarea
                   class="form-control"
                   id="message"
-                  rows="3"
+                  name="message"
+                  rows="5"
                   placeholder="Send me a message..."
                 ></textarea>
               </div>
+              <input type="submit" value="Send" />
+              <input type="reset" value="Reset" />
             </form>
-            <button type="submit" class="btn btn-info">Submit</button>
           </div>
         </div>
         <!--
@@ -106,7 +114,11 @@
       <div class="container text-center">
         <span class="footer-links">
           <a href="https://github.com/montal95" target="_blank">GitHub</a> |
-          <a href="https://www.linkedin.com/in/samuel-montalvo-jr" target="_blank">LinkedIn</a>
+          <a
+            href="https://www.linkedin.com/in/samuel-montalvo-jr"
+            target="_blank"
+            >LinkedIn</a
+          >
         </span>
       </div>
     </footer>
